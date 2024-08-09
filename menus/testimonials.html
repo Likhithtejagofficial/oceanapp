@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Testimonials</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+
+        .testimonial:hover {
+            transform: scale(1.05);
+        }
+
+        .testimonial-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-content {
+            font-size: 18px;
+        }
+
+        .employee-name {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .join-team {
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+        }
+
+        .apply-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .apply-button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Testimonials</h1>
+        
+        <div class="testimonial">
+            <img src="employee1.jpg" alt="Sarah" class="testimonial-image">
+            <div class="testimonial-content">
+                <p>"I've grown so much in my role and feel supported every step of the way."</p>
+                <p class="employee-name">- Sarah, Marketing Manager</p>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <img src="employee2.jpg" alt="Michael" class="testimonial-image">
+            <div class="testimonial-content">
+                <p>"The company culture is amazing - it really feels like a family."</p>
+                <p class="employee-name">- Michael, Sales Representative</p>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <img src="employee3.jpg" alt="Samantha" class="testimonial-image">
+            <div class="testimonial-content">
+                <p>"The work is challenging but incredibly rewarding."</p>
+                <p class="employee-name">- Samantha, Product Manager</p>
+            </div>
+        </div>
+
+        <div class="testimonial">
+            <img src="employee4.jpg" alt="Fatima" class="testimonial-image">
+            <div class="testimonial-content">
+                <p>"I feel valued for my unique perspective and ideas."</p>
+                <p class="employee-name">- Fatima, Software Engineer</p>
+            </div>
+        </div>
+
+        <div class="join-team">
+            <h2>Join Our Team</h2>
+            <p>Ready to embark on your own journey of growth and success? Check out our open positions and apply today!</p>
+            <a href="https://www.example.com/careers" class="apply-button">View Open Positions</a>
+        </div>
+    </div>
+</body>
+</html>

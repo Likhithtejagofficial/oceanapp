@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Clients</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: white;
+        text-align: center;
+      }
+
+      .container {
+        padding: 50px;
+      }
+
+      .title {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+
+      .client-numbers {
+        font-size: 5em;
+        margin: 20px 0;
+        animation: pop 1s forwards;
+      }
+
+      @keyframes pop {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.2);
+          opacity: 1;
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .clients {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .client {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.3s;
+      }
+
+      .client img {
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .client:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Our Clients</h1>
+      <div class="client-numbers">250+</div>
+      <div class="clients">
+        <div class="client">
+          <img src="client1.jpg" alt="Client 1" />
+          <h2>Client Name 1</h2>
+        </div>
+        <div class="client">
+          <img src="client2.jpg" alt="Client 2" />
+          <h2>Client Name 2</h2>
+        </div>
+        <div class="client">
+          <img src="client3.jpg" alt="Client 3" />
+          <h2>Client Name 3</h2>
+        </div>
+        <div class="client">
+          <img src="client4.jpg" alt="Client 4" />
+          <h2>Client Name 4</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers at Our Company</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+        }
+
+        .job-list {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .job {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+
+        .job:hover {
+            transform: scale(1.05);
+        }
+
+        .job-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .job-description {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .apply-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            margin-top: 20px;
+        }
+
+        .apply-button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <h1>Careers at Our Company</h1>
+    <div class="job-list">
+        <div class="job">
+            <div class="job-title">Software Developer</div>
+            <div class="job-description">We are looking for a skilled software developer to join our team. You will be responsible for developing high-quality applications.</div>
+            <a href="#" class="apply-button">Apply Now</a>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Customer Support Representative</div>
+            <div class="job-description">Join our customer support team to help our clients with their inquiries and provide excellent service.</div>
+            <a href="#" class="apply-button">Apply Now</a>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Product Manager</div>
+            <div class="job-description">We are seeking a product manager to lead our product development efforts and collaborate with cross-functional teams.</div>
+            <a href="#" class="apply-button">Apply Now</a>
+        </div>
+
+        <div class="job">
+            <div class="job-title">Marketing Specialist</div>
+            <div class="job-description">Looking for a creative marketing specialist to develop and implement marketing strategies.</div>
+            <a href="#" class="apply-button">Apply Now</a>
+        </div>
+    </div>
+</body>
+</html>
